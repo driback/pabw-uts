@@ -1,0 +1,26 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+
+  > a {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.65rem 1.25rem;
+    border-radius: 0.35rem;
+    background-color: white;
+    color: black;
+  }
+}

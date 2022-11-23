@@ -1,0 +1,46 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1rem;
+  gap: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 1rem;
+  width: 17rem;
+
+  &__Title {
+    font-size: 1.5rem;
+  }
+
+  &__Input {
+    display: grid;
+    gap: 0.55rem;
+
+    > input {
+      font-family: inherit;
+      font-size: 1rem;
+      padding: 0.55rem 0.85em;
+      border: none;
+      outline: none;
+      border-radius: 0.15rem;
+    }
+  }
+
+  &__Button {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.55rem 0.85em;
+    border: none;
+    outline: none;
+    border-radius: 0.15rem;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+
+    &:disabled {
+      background-color: #202020;
+      color: #646464;
+      cursor: not-allowed;
+    }
+  }
+}
